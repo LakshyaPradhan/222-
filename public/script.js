@@ -115,11 +115,11 @@ $(function () {
         }
         $.ajax({
             url:"/send-mail",
-            type:"post",
+            type:'post',
             data:JSON.stringify(data),
-            dataType:"json",
-            contentType:"application/json",
-            success:function(result){
+            dataType:'json',
+            contentType:'application/json',
+            success:function (result) {
                 alert("invite send")
             },
             error:function(result){
